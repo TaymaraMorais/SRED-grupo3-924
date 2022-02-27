@@ -1,7 +1,7 @@
 # Instituto Federal de Alagoas - Campus Arapiraca
 ### Prof. Alaelson Jatobá
 
-### Alunas:
+## Alunas:
 ### Alice Julia
 ### Angelina Oliveira
 ### Kailane Santos
@@ -17,11 +17,11 @@
 
 ### Considerações Finais
 
-### Desenvolvimento de rede de computador virtualizada 
+## Desenvolvimento de rede de computador virtualizada 
 
-## Configuração de Interface de Rede
+### Configuração de Interface de Rede
 
-## <p><center> Tabela 1: Definições da rede interna </center></p>
+### <p><center> Tabela 1: Definições da rede interna </center></p>
 
 | DESCRIÇÃO   | IP             |
 |:------------|:---------------|
@@ -33,7 +33,7 @@
 | NameServer2 | 10.9.24.122    |
 | Samba       | 10.9.24.101    |
 
-## <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
+### <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
 
 |        VM         |      Apelido      |               NOME                  |
 |:------------------|:------------------|:------------------------------------|
