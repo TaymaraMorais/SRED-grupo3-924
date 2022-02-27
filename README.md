@@ -2,20 +2,20 @@
 ### Prof. Alaelson Jatobá
 
 ### Alunas:
-##Alice Julia
-##Angelina Oliveira
-##Kailane Santos
-##Taymara Morais
+### Alice Julia
+### Angelina Oliveira
+### Kailane Santos
+### Taymara Morais
 
-### Sumário
+## Sumário
 
-## 1. Introdução
+### 1. Introdução
 
-## 2. Definições Iniciais
+### 2. Definições Iniciais
 
-## 3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
+### 3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
 
-## Considerações Finais
+### Considerações Finais
 
 ### Desenvolvimento de rede de computador virtualizada 
 
