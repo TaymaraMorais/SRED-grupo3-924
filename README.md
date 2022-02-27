@@ -2,9 +2,10 @@
 ### Prof. Alaelson Jatobá
 
 ### Alunas:
-Alice Julia
-Angelina Oliveira
-Kailane Santos
+##Alice Julia
+##Angelina Oliveira
+##Kailane Santos
+##Taymara Morais
 
 ### Sumário
 
@@ -32,15 +33,15 @@ Kailane Santos
 | NameServer2 | 10.9.24.122    |
 | Samba       | 10.9.24.101    |
 
-## <p><center> Tabela 2: Definições do domínio: <b>name.grupo3.turma.ifalarapiraca.local</b></center></p>
+## <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
 
-|        VM         |      Apelido      |               NOME               |
-|:------------------|:------------------|:---------------------------------|
-|      aluno02      | gateway (gw)      | gw.grupo3.turma924.ifalarapiraca.local    |
-|      aluno11      | nameserver1 (ns1) | ns1.grupo3.turma924.ifalarapiraca.local   |
-|      aluno22      | nameserver2 (ns2) | ns2.grupo3.turma924.ifalarapiraca.local   |
-|      aluno01      | hostsamba   (hs1) | samba.grupo3.turma924.ifalarapiraca.local |
-|                   | WEB         (web) | web.grupo3.turma924.ifalarapiraca.local   | -->
-|                   | BD           (bd) | bd.grupo3.turma924.ifalarapiraca.local    |
+|        VM         |      Apelido      |               NOME                  |
+|:------------------|:------------------|:------------------------------------|
+|      aluno02      | gateway (gw)      | gw.grupo3.turma924.ifalara.local    |
+|      aluno11      | nameserver1 (ns1) | ns1.grupo3.turma924.ifalara.local   |
+|      aluno22      | nameserver2 (ns2) | ns2.grupo3.turma924.ifalara.local   |
+|      aluno01      | hostsamba   (hs1) | samba.grupo3.turma924.ifalara.local |
+|                   | WEB         (web) | web.grupo3.turma924.ifalara.local   | -->
+|                   | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
 
 
