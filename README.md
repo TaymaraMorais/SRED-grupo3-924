@@ -16,7 +16,7 @@
 
 ## 1. Introdução
 
-#### Neste trabalho será feito a instalação e configuração dos servidores e serviços do Gateway, Samba, DNS master e Slave; ( adicionar mais detalhadamente)
+#### Este trabalho aborda os assuntos dados em aula pelo professor Alaelson Jatobá. Apresenta dados sobre a instalação, configuração e conexão dos servidores SAMBA, GATEWAY,  DNS MASTER, DNS SLAVE, WEB e BD.
 
 ## 2. Definições Iniciais
 
