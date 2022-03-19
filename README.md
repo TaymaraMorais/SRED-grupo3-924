@@ -2,10 +2,10 @@
 ### Prof. Alaelson Jatobá
 
 ## Alunas:
-### Alice Julia
-### Angelina Oliveira
-### Kailane Santos
-### Taymara Morais
+#### Alice Julia
+#### Angelina Oliveira
+#### Kailane Santos
+#### Taymara Morais
 
 ## Sumário
 
