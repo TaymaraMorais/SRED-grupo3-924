@@ -1,7 +1,7 @@
 # Instituto Federal de Alagoas - Campus Arapiraca
 ### Prof. Alaelson Jatobá
 
-## Alunas:
+### Alunas:
 #### Alice Julia
 #### Angelina Oliveira
 #### Kailane Santos
@@ -20,7 +20,7 @@
 
 ## 2. Definições Iniciais
 
-### <p><center> Tabela 1: Definições da rede interna </center></p>
+#### <p><center> Tabela 1: Definições da rede interna </center></p>
 
 | DESCRIÇÃO   | IP             |
 |:------------|:---------------|
@@ -35,7 +35,7 @@
 | BD          | 10.9.24.216    |
 
 
-### <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
+#### <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
 
 |        VM         |      Apelido      |               NOME                  |
 |:------------------|:------------------|:------------------------------------|
