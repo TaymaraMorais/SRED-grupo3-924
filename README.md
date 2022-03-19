@@ -26,7 +26,7 @@ Taymara Morais
 
 ## 1. Introdução
 
-Este trabalho aborda os assuntos dados em aula pelo professor Alaelson Jatobá. Apresenta dados sobre a instalação, configuração e conexão dos servidores SAMBA, GATEWAY,  DNS MASTER, DNS SLAVE, WEB e BD.
+Este trabalho aborda os assuntos dados em aula pelo professor, Alaelson Jatobá. Apresenta dados sobre a instalação, configuração e conexão dos servidores SAMBA, GATEWAY,  DNS MASTER, DNS SLAVE, WEB e BD.
 
 ## 2. Definições Iniciais
 
