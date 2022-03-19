@@ -10,16 +10,15 @@
 ## Sumário
 
 ### 1. Introdução
-
 ### 2. Definições Iniciais
-
 ### 3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
-
 ### Considerações Finais
 
-## Desenvolvimento de rede de computador virtualizada 
+## 1. Introdução
 
-### Configuração de Interface de Rede
+#### Neste trabalho será feito a instalação e configuração dos servidores e serviços do Gateway, Samba, DNS master e Slave; ( adicionar mais detalhadamente)
+
+## 2. Definições Iniciais
 
 ### <p><center> Tabela 1: Definições da rede interna </center></p>
 
@@ -46,5 +45,13 @@
 |      aluno01      | hostsamba   (hs1) | samba.grupo3.turma924.ifalara.local |
 |                   | WEB         (web) | www.grupo3.turma924.ifalara.local   | -->
 |                   | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
+
+## 3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
+
+## Considerações Finais
+
+
+
+
 
 
