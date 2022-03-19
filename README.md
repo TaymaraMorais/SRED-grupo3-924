@@ -32,6 +32,9 @@
 | NameServer1 | 10.9.24.111    |
 | NameServer2 | 10.9.24.122    |
 | Samba       | 10.9.24.101    |
+| WEB         | 10.9.24.215    |
+| BD          | 10.9.24.216    |
+
 
 ### <p><center> Tabela 2: Definições do domínio: <b>grupo3.turma924.ifalara.local</b></center></p>
 
@@ -41,7 +44,7 @@
 |      aluno11      | nameserver1 (ns1) | ns1.grupo3.turma924.ifalara.local   |
 |      aluno22      | nameserver2 (ns2) | ns2.grupo3.turma924.ifalara.local   |
 |      aluno01      | hostsamba   (hs1) | samba.grupo3.turma924.ifalara.local |
-|                   | WEB         (web) | web.grupo3.turma924.ifalara.local   | -->
+|                   | WEB         (web) | www.grupo3.turma924.ifalara.local   | -->
 |                   | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
 
 
