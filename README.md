@@ -1,7 +1,7 @@
 # Instituto Federal de Alagoas - Campus Arapiraca
 Prof. Alaelson Jatobá
 
-Turma 924
+Turma: 924
 
 Alunas:
 
@@ -16,13 +16,13 @@ Taymara Morais
 
 ## Sumário
 
-1. Introdução
+1. Introdução;
 
-2. Definições Iniciais
+2. Definições Iniciais;
 
-3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
+3. Implementação dos Serivços de Rede (Cada serviço uma sessão);
 
-4. Considerações Finais
+4. Considerações Finais;
 
 ## 1. Introdução
 
@@ -56,7 +56,19 @@ Este trabalho aborda os assuntos dados em aula pelo professor Alaelson Jatobá. 
 |                   | WEB         (web) | www.grupo3.turma924.ifalara.local   | -->
 |                   | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
 
-## 3. Implementação dos Serivços de Rede (Cada serviço uma sessão)
+## 3. Implementação dos Serivços de Rede:
+
+### 3.1 DNS MASTER (ns1);
+
+### 3.2 DNS SLAVE (ns2);
+
+### 3.3 SAMBA (samba);
+
+### 3.4 GATEWAY (gw);
+
+### 3.5 WEB (www);
+
+### 3.6 BD (bd);
 
 ## Considerações Finais
 
