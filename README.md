@@ -53,8 +53,8 @@ Este trabalho aborda os assuntos dados em aula pelo professor, Alaelson Jatobá.
 |      aluno11      | nameserver1 (ns1) | ns1.grupo3.turma924.ifalara.local   |
 |      aluno22      | nameserver2 (ns2) | ns2.grupo3.turma924.ifalara.local   |
 |      aluno01      | hostsamba   (hs1) | samba.grupo3.turma924.ifalara.local |
-|                   | WEB         (web) | www.grupo3.turma924.ifalara.local   | -->
-|                   | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
+|      grupo3VM1    | WEB         (web) | www.grupo3.turma924.ifalara.local   | -->
+|      grupo3VM2    | BD           (bd) | bd.grupo3.turma924.ifalara.local    |
 
 ## 3. Implementação dos Serivços de Rede:
 
