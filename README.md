@@ -418,9 +418,19 @@ mysql> select * from host;
 | 215 | Web grupo 3 | www.grupo3.turma924.ifalara.local |   3 |
 +-----+-------------+-----------------------------------+-----+
 1 row in set (0.00 sec)
-````
+```
+```bash
+mysql> select * from grupo;
++-----+---------+-------------------------------+
+| GID | nome    | dominio                       |
++-----+---------+-------------------------------+
+|   3 | Grupo 3 | grupo3.turma924.ifalara.local |
++-----+---------+-------------------------------+
+1 row in set (0.00 sec)
+```
 
 ## Considerações Finais
+
 
 
 
