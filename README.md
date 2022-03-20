@@ -431,6 +431,10 @@ mysql> select * from grupo;
 
 ## Considerações Finais
 
+Durante a realização do Trabalho final, assumimos o desafio de realizar o desenvolvimento da etapa final da matéria SRED, realizando as instalações, configurações e conexões dos serviços e servidores APACHE, BIND9, SAMBA, DNS, GATEWAY, BD e WEB. Todos os integrantes do grupo 3 participando direta ou indiretamente do desenvolvimento do projeto deram o seu máximo para alcançar as metas estabelecidas pelo professor Alaelson Jatobá.
+Consideramos, sem dúvida que o grande "facilitador" durante todo o transcurso do trabalho foi a metodologia das aulas de “tira dúvidas” ministradas pelo professor.
+
+
 
 
 
