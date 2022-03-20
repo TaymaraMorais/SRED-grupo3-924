@@ -385,17 +385,17 @@ www.grupo3.turma924.ifalara.local. 4330 IN A    10.9.24.215
 ;; MSG SIZE  rcvd: 78
 
 ```
-### Testes nsloopkup ns1 (DNS Master);
+### Testes nslookup ns1 (DNS Master);
 
 ```bash
 
 ```
-## Testes nsloopkup id_sub-redes ns1 (DNS Master);
+## Testes nslookup id_sub-redes ns1 (DNS Master);
 
 ```bash
 
 ```
-## Testes nsloopkup ns2 (DNS Slave);
+## Testes nslookup ns2 (DNS Slave);
 
 ```bash
 root@ns2:~# nslookup ns1 ns2
@@ -454,7 +454,7 @@ Name:   bd.grupo3.turma924.ifalara.local
 Address: 10.9.24.216
 ```
 
-## Testes nsloopkup id_sub-redes ns2 (DNS Slave);
+## Testes nslookup id_sub-redes ns2 (DNS Slave);
 
 ```bash
 root@ns2:~# nslookup  10.9.24.111 ns2
