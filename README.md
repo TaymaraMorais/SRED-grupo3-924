@@ -22,7 +22,9 @@ Taymara Morais
 
 3. Implementação dos Serivços de Rede (Cada serviço uma sessão);
 
-4. Considerações Finais;
+4. Testes
+
+5. Considerações Finais;
 
 ## 1. Introdução
 
@@ -58,7 +60,9 @@ Este trabalho aborda os assuntos dados em aula pelo professor, Alaelson Jatobá.
 
 ## 3. Implementação dos Serivços de Rede:
 
-### 3.1 DNS MASTER (ns1);
+## 4. Testes
+
+### Testes dig DNS Master (ns1);
 ```bash
 @ns1:~$ dig ns1.grupo3.turma924.ifalara.local
 ```
@@ -218,7 +222,9 @@ www.grupo3.turma924.ifalara.local. 10800 IN A   10.9.24.215
 ;; MSG SIZE  rcvd: 78
 
 ```
-### 3.2 DNS SLAVE (ns2);
+
+### Testes dig DNS Slave (ns2);
+
 ```bash
 @ns2:~$ dig ns1.grupo3.turma924.ifalara.local
 ```
@@ -379,36 +385,17 @@ www.grupo3.turma924.ifalara.local. 4330 IN A    10.9.24.215
 ;; MSG SIZE  rcvd: 78
 
 ```
-## Testes nsloopkup ns1(DNS MASTER);
+### Testes nsloopkup ns1 (DNS Master);
+
 ```bash
 
 ```
-## Testes nsloopkup id_sub-redes ns1(DNS MASTER);
+## Testes nsloopkup id_sub-redes ns1 (DNS Master);
+
 ```bash
 
 ```
-## Testes nsloopkup id_sub-redes ns2(DNS SLAVE);
-```bash
-root@ns2:~# nslookup  10.9.24.111 ns2
-111.24.9.10.in-addr.arpa        name = ns1.grupo3.turma924.ifalara.local.
-
-root@ns2:~# nslookup  10.9.24.122 ns2
-122.24.9.10.in-addr.arpa        name = ns2.grupo3.turma924.ifalara.local.
-
-root@ns2:~# nslookup  10.9.24.102  ns2
-102.24.9.10.in-addr.arpa        name = gw.grupo3.turma924.ifalara.local.
-
-root@ns2:~# nslookup  10.9.24.101  ns2
-101.24.9.10.in-addr.arpa        name = smb.grupo3.turma924.ifalara.local.
-
-root@ns2:~# nslookup  10.9.24.215  ns2
-215.24.9.10.in-addr.arpa        name = www.grupo3.turma924.ifalara.local.
-
-root@ns2:~# nslookup  10.9.24.216  ns2
-216.24.9.10.in-addr.arpa        name = bd.grupo3.turma924.ifalara.local.
-```
-
-## Testes nsloopkup ns2(DNS SLAVE);
+## Testes nsloopkup ns2 (DNS Slave);
 
 ```bash
 root@ns2:~# nslookup ns1 ns2
@@ -466,6 +453,35 @@ Address:        10.9.24.122#53
 Name:   bd.grupo3.turma924.ifalara.local
 Address: 10.9.24.216
 ```
+
+## Testes nsloopkup id_sub-redes ns2 (DNS Slave);
+
+```bash
+root@ns2:~# nslookup  10.9.24.111 ns2
+111.24.9.10.in-addr.arpa        name = ns1.grupo3.turma924.ifalara.local.
+```
+```bash
+root@ns2:~# nslookup  10.9.24.122 ns2
+122.24.9.10.in-addr.arpa        name = ns2.grupo3.turma924.ifalara.local.
+```
+```bash
+root@ns2:~# nslookup  10.9.24.102  ns2
+102.24.9.10.in-addr.arpa        name = gw.grupo3.turma924.ifalara.local.
+```
+```bash
+root@ns2:~# nslookup  10.9.24.101  ns2
+101.24.9.10.in-addr.arpa        name = smb.grupo3.turma924.ifalara.local.
+```
+```bash
+root@ns2:~# nslookup  10.9.24.215  ns2
+215.24.9.10.in-addr.arpa        name = www.grupo3.turma924.ifalara.local.
+```
+```bash
+root@ns2:~# nslookup  10.9.24.216  ns2
+216.24.9.10.in-addr.arpa        name = bd.grupo3.turma924.ifalara.local.
+```
+
+
 ## Tabelas BD:
 ```bash
 mysql> show databases;
