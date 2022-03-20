@@ -379,6 +379,93 @@ www.grupo3.turma924.ifalara.local. 4330 IN A    10.9.24.215
 ;; MSG SIZE  rcvd: 78
 
 ```
+## Testes nsloopkup ns1(DNS MASTER);
+```bash
+
+```
+## Testes nsloopkup id_sub-redes ns1(DNS MASTER);
+```bash
+
+```
+## Testes nsloopkup id_sub-redes ns2(DNS SLAVE);
+```bash
+root@ns2:~# nslookup  10.9.24.111 ns2
+111.24.9.10.in-addr.arpa        name = ns1.grupo3.turma924.ifalara.local.
+
+root@ns2:~# nslookup  10.9.24.122 ns2
+122.24.9.10.in-addr.arpa        name = ns2.grupo3.turma924.ifalara.local.
+
+root@ns2:~# nslookup  10.9.24.102  ns2
+102.24.9.10.in-addr.arpa        name = gw.grupo3.turma924.ifalara.local.
+
+root@ns2:~# nslookup  10.9.24.101  ns2
+101.24.9.10.in-addr.arpa        name = smb.grupo3.turma924.ifalara.local.
+
+root@ns2:~# nslookup  10.9.24.215  ns2
+215.24.9.10.in-addr.arpa        name = www.grupo3.turma924.ifalara.local.
+
+root@ns2:~# nslookup  10.9.24.216  ns2
+216.24.9.10.in-addr.arpa        name = bd.grupo3.turma924.ifalara.local.
+```
+
+## Testes nsloopkup ns2(DNS SLAVE);
+
+```bash
+root@ns2:~# nslookup ns1 ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   ns1.grupo3.turma924.ifalara.local
+Address: 192.168.24.19
+Name:   ns1.grupo3.turma924.ifalara.local
+Address: 10.9.24.111
+```
+```bash
+root@ns2:~# nslookup ns2  ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   ns2.grupo3.turma924.ifalara.local
+Address: 10.9.24.122
+Name:   ns2.grupo3.turma924.ifalara.local
+Address: 192.168.24.20
+```
+```bash
+root@ns2:~# nslookup gw ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   gw.grupo3.turma924.ifalara.local
+Address: 192.168.24.17
+Name:   gw.grupo3.turma924.ifalara.local
+Address: 10.9.24.102
+```
+```bash
+root@ns2:~# nslookup samba ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   samba.grupo3.turma924.ifalara.local
+Address: 192.168.24.18
+Name:   samba.grupo3.turma924.ifalara.local
+Address: 10.9.24.101
+```
+```bash
+root@ns2:~# nslookup www ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   www.grupo3.turma924.ifalara.local
+Address: 10.9.24.215
+```
+```bash
+root@ns2:~# nslookup bd ns2
+Server:         ns2
+Address:        10.9.24.122#53
+
+Name:   bd.grupo3.turma924.ifalara.local
+Address: 10.9.24.216
+```
 ## Tabelas BD:
 ```bash
 mysql> show databases;
