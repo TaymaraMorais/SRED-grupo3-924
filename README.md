@@ -220,7 +220,7 @@ www.grupo3.turma924.ifalara.local. 10800 IN A   10.9.24.215
 ```
 ### 3.2 DNS SLAVE (ns2);
 ```bash
-@ns1:~$ dig ns1.grupo3.turma924.ifalara.local
+@ns2:~$ dig ns1.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> ns1.grupo3.turma924.ifalara.local
@@ -247,7 +247,7 @@ ns1.grupo3.turma924.ifalara.local. 10800 IN A   192.168.24.19
 
 ```
 ```bash
-@ns1:~$ dig ns2.grupo3.turma924.ifalara.local
+@ns2:~$ dig ns2.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> ns2.grupo3.turma924.ifalara.local
@@ -274,7 +274,7 @@ ns2.grupo3.turma924.ifalara.local. 10800 IN A   10.9.24.122
 
 ```
 ```bash
-@ns1:~$ dig gw.grupo3.turma924.ifalara.local
+@ns2:~$ dig gw.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> gw.grupo3.turma924.ifalara.local
@@ -301,7 +301,7 @@ gw.grupo3.turma924.ifalara.local. 4465 IN A     192.168.24.17
 
 ```
 ```bash
-@ns1:~$ dig samba.grupo3.turma924.ifalara.local
+@ns2:~$ dig samba.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> samba.grupo3.turma924.ifalara.local
@@ -328,7 +328,7 @@ samba.grupo3.turma924.ifalara.local. 5664 IN A  10.9.24.101
 
 ```
 ```bash
-@ns1:~$ dig bd.grupo3.turma924.ifalara.local
+@ns2:~$ dig bd.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> bd.grupo3.turma924.ifalara.local
@@ -354,7 +354,7 @@ bd.grupo3.turma924.ifalara.local. 10800 IN A    10.9.24.216
 
 ```
 ```bash
-@ns1:~$ dig www.grupo3.turma924.ifalara.local
+@ns2:~$ dig www.grupo3.turma924.ifalara.local
 ```
 ```bash
 ; <<>> DiG 9.16.1-Ubuntu <<>> www.grupo3.turma924.ifalara.local
@@ -379,6 +379,46 @@ www.grupo3.turma924.ifalara.local. 4330 IN A    10.9.24.215
 ;; MSG SIZE  rcvd: 78
 
 ```
+## Tabelas BD:
+```bash
+mysql> show databases;
++--------------------------------------+
+| Database                             |
++--------------------------------------+
+| bd_grupo3_turma924_projetofinal_serd |
+| information_schema                   |
+| mysql                                |
+| performance_schema                   |
+| sys                                  |
++--------------------------------------+
+5 rows in set (0.02 sec)
+```
+```bash
+mysql> use bd_grupo3_turma924_projetofinal_serd;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> select * from aluno;
++-----+--------------------------------+-------------------------+-----+
+| UID | Nome                           | Email                   | GID |
++-----+--------------------------------+-------------------------+-----+
+|   1 | Alice Julia Silva Costa        | ajsc1@aluno.ifal.edu.br |   3 |
+|   2 | Angelina Nunes Silva Oliveira  | anso1@aluno.ifal.edu.br |   3 |
+|  11 | Kailane Santos Calixto         | ksc1@aluno.ifal.edu.br  |   3 |
+|  22 | Taymara Morais de Mendonça     | tmm2@aluno.ifal.edu.br  |   3 |
++-----+--------------------------------+-------------------------+-----+
+4 rows in set (0.00 sec)
+```
+```bash
+mysql> select * from host;
++-----+-------------+-----------------------------------+-----+
+| HID | VMNome      | FQDNome                           | GID |
++-----+-------------+-----------------------------------+-----+
+| 215 | Web grupo 3 | www.grupo3.turma924.ifalara.local |   3 |
++-----+-------------+-----------------------------------+-----+
+1 row in set (0.00 sec)
+````
 
 ## Considerações Finais
 
