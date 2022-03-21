@@ -388,11 +388,87 @@ www.grupo3.turma924.ifalara.local. 4330 IN A    10.9.24.215
 ### Testes nslookup ns1 (DNS Master);
 
 ```bash
+administrador@ns1:~$ nslookup ns1 ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   ns1.grupo3.turma924.ifalara.local
+Address: 10.9.24.111
+Name:   ns1.grupo3.turma924.ifalara.local
+Address: 192.168.24.19
+```
+```bash
+administrador@ns1:~$ nslookup ns2 ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   ns2.grupo3.turma924.ifalara.local
+Address: 192.168.24.20
+Name:   ns2.grupo3.turma924.ifalara.local
+Address: 10.9.24.122
+```
+```bash
+administrador@ns1:~$ nslookup gw ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   gw.grupo3.turma924.ifalara.local
+Address: 192.168.24.17
+Name:   gw.grupo3.turma924.ifalara.local
+Address: 10.9.24.102
+```
+```bash
+administrador@ns1:~$ nslookup samba ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   samba.grupo3.turma924.ifalara.local
+Address: 10.9.24.101
+Name:   samba.grupo3.turma924.ifalara.local
+Address: 192.168.24.18
+```
+```bash
+administrador@ns1:~$ nslookup www ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   www.grupo3.turma924.ifalara.local
+Address: 10.9.24.215
+```
+```bash
+administrador@ns1:~$ nslookup bd ns1
+Server:         ns1
+Address:        10.9.24.111#53
+
+Name:   bd.grupo3.turma924.ifalara.local
+Address: 10.9.24.216
 
 ```
 ## Testes nslookup id_sub-redes ns1 (DNS Master);
 
 ```bash
+administrador@ns1:~$ nslookup 10.9.24.111 ns1
+111.24.9.10.in-addr.arpa        name = ns1.grupo3.turma924.ifalara.local.
+```
+```bash
+administrador@ns1:~$ nslookup 10.9.24.122 ns1
+122.24.9.10.in-addr.arpa        name = ns2.grupo3.turma924.ifalara.local.
+```
+```bash
+administrador@ns1:~$ nslookup 10.9.24.102 ns1
+102.24.9.10.in-addr.arpa        name = gw.grupo3.turma924.ifalara.local.
+```
+```bash
+administrador@ns1:~$ nslookup 10.9.24.101 ns1
+101.24.9.10.in-addr.arpa        name = smb.grupo3.turma924.ifalara.local.
+```
+```bash
+administrador@ns1:~$ nslookup 10.9.24.215 ns1
+215.24.9.10.in-addr.arpa        name = www.grupo3.turma924.ifalara.local.
+```
+```bash
+administrador@ns1:~$ nslookup 10.9.24.216 ns1
+216.24.9.10.in-addr.arpa        name = bd.grupo3.turma924.ifalara.local.
 
 ```
 ## Testes nslookup ns2 (DNS Slave);
